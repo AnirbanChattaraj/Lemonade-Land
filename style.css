@@ -1,0 +1,97 @@
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(#FFF9C4, #FFEAB6);
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header {
+      background: #FFD93D;
+      padding: 25px;
+      border-radius: 20px;
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #FF6F3C;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      letter-spacing: 1.5px;
+    }
+
+    .hero {
+      margin-top: 25px;
+      padding: 30px;
+      background: #FFF4A3;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      border: 3px dashed #FFB830;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-top: 40px;
+      color: #FF8C42;
+      font-weight: 700;
+    }
+
+    .items {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #FFF5C8;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border: 2px solid #FFCE47;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 12px 28px;
+      background: #FFB830;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .btn:hover {
+      background: #FF9A22;
+      transform: scale(1.05);
+    }
+
+    .facts {
+      margin-top: 30px;
+      background: #FFEFA8;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      font-size: 1.1rem;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 25px;
+      background: linear-gradient(135deg, #FFD93D, #FFB830);
+      border-radius: 20px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.2);
+      color: #7A3E00;
+      font-size: 1.2rem;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+    }
+  
